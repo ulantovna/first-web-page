@@ -1,7 +1,7 @@
 const imgElement = document.querySelector("img");
 
-const img1URL = "C:\\Users\\User\\OneDrive\\Рабочий стол\\web-design\\4th-assign\\first-web-page\\img\\Alatoo.png";
-const img2URL = "C:\\Users\\User\\OneDrive\\Рабочий стол\\web-design\\4th-assign\\first-web-page\\img\\download.jpeg";
+const img1URL = "img\Alatoo.png";
+const img2URL = "img\download.jpeg";
 
 function changePhoto(event){
     let current = imgElement.getAttribute("src");
